@@ -22,6 +22,11 @@ const { title, description } = Astro.props;
 	</body>
 </html>
 <style is:global>
+
+	@font-face {
+		font-family: Pokemon;
+		src: url('../../public/fonts/Pokemon solid.ttf');
+	}
 	:root {
 		--accent: 136, 58, 234;
 		--accent-light: 224, 204, 250;
@@ -48,8 +53,4 @@ const { title, description } = Astro.props;
 			Courier New,
 			monospace;
 	} 
-
-	body {
-		@apply grid place-content-center;
-	}
 </style>

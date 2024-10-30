@@ -1,9 +1,15 @@
-<header class="py-10 w-full  bg-gradient-to-r from-purple-500 to-pink-500 text-white">
-    <nav>
-        <h1>About rock</h1>
-        <search>
-            <input type="search" name="search-input" id="search-input" placeholder="Guns N' Roses, AC/DC ..." />
+<header class="py-10 w-full  bg-gradient-to-r from-red-500 to-pink-500 text-white">
+    <nav class="relative grid grid-cols-2 place-items-center"> 
+        <h1 class="text-5xl font-bold col-start-1 col-end-3 font-pokemon text-yellow-400 ">Pokemon API</h1>
+        <div class="absolute right-0 mr-10 flex items-center gap-2">
+            <input 
+                type="search" 
+                name="search-input" 
+                id="search-input" 
+                placeholder="Pikachu, clefairy, eevee..."
+                class="w-full h-10 p-2 rounded-xl border-2 transition-[outline] border-gray-300 focus:outline-violet-500 focus:outline-none text-black"
+                />
             <button>Search</button>
-        </search>
+        </div>
     </nav>
 </header>
